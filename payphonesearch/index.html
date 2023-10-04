@@ -3,6 +3,7 @@
 
 <head>
 	<title>Telstra Payphone Search</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<style>
 		body {
 			font-family: sans-serif;
@@ -64,6 +65,26 @@
 			font-size: 18px;
 			border-radius: 999px;
 			cursor: pointer;
+		}
+
+		@media only screen and (max-width: 600px) {
+			h1 {
+				font-size: 24px;
+			}
+
+			input[type="text"] {
+				text-align: center;
+			}
+
+			.search-container {
+				flex-direction: column;
+				margin-bottom: 10px;
+				border-radius: 30px;
+			}
+
+			button[type="submit"] {
+				width: 100%;
+			}
 		}
 	</style>
 	<script type="text/javascript">
