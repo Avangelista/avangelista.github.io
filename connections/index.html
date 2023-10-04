@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Custom Connections</title>
+    <meta name="description" content="Custom editor for NYT's Connections game.">
+    <meta name="author" content="Avangelista">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="editor.css">
+    <script src="gzip.min.js"></script>
+    <script src="editor.js"></script>
+</head>
+
+<body>
+    <div id="game">
+        <div id="blurb">
+            <span>Custom Connections</span>
+        </div>
+        <div id="title">
+            <input id="game-name" class="name-input" type="text" placeholder="Game Title"/>
+        </div>
+        <div id="board">
+            <div id="hint">
+                <span id="hint-text"></span>
+            </div>
+            <div class="row">
+                <div id="row-1" class="container">
+                    <input id="cat-1-desc" class="description-input" type="text" placeholder="Description"/>
+                    <div class="cells">
+                        <div class="cell">
+                            <input id="cat-1-word-1" class="input" type="text" placeholder="Word"/>
+                        </div>
+                        <div class="cell">
+                            <input id="cat-1-word-2" class="input" type="text" placeholder="Word"/>
+                        </div>
+                        <div class="cell">
+                            <input id="cat-1-word-3" class="input" type="text" placeholder="Word"/>
+                        </div>
+                        <div class="cell">
+                            <input id="cat-1-word-4" class="input" type="text" placeholder="Word"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="row-2" class="container">
+                    <input id="cat-2-desc" class="description-input" type="text" placeholder="Description"/>
+                    <div class="cells">
+                        <div class="cell">
+                            <input id="cat-2-word-1" class="input" type="text" placeholder="Word"/>
+                        </div>
+                        <div class="cell">
+                            <input id="cat-2-word-2" class="input" type="text" placeholder="Word"/>
+                        </div>
+                        <div class="cell">
+                            <input id="cat-2-word-3" class="input" type="text" placeholder="Word"/>
+                        </div>
+                        <div class="cell">
+                            <input id="cat-2-word-4" class="input" type="text" placeholder="Word"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="row-3" class="container">
+                    <input id="cat-3-desc" class="description-input" type="text" placeholder="Description"/>
+                    <div class="cells">
+                        <div class="cell">
+                            <input id="cat-3-word-1" class="input" type="text" placeholder="Word"/>
+                        </div>
+                        <div class="cell">
+                            <input id="cat-3-word-2" class="input" type="text" placeholder="Word"/>
+                        </div>
+                        <div class="cell">
+                            <input id="cat-3-word-3" class="input" type="text" placeholder="Word"/>
+                        </div>
+                        <div class="cell">
+                            <input id="cat-3-word-4" class="input" type="text" placeholder="Word"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="row-4" class="container">
+                    <input id="cat-4-desc" class="description-input" type="text" placeholder="Description"/>
+                    <div class="cells">
+                        <div class="cell">
+                            <input id="cat-4-word-1" class="input" type="text" placeholder="Word"/>
+                        </div>
+                        <div class="cell">
+                            <input id="cat-4-word-2" class="input" type="text" placeholder="Word"/>
+                        </div>
+                        <div class="cell">
+                            <input id="cat-4-word-3" class="input" type="text" placeholder="Word"/>
+                        </div>
+                        <div class="cell">
+                            <input id="cat-4-word-4" class="input" type="text" placeholder="Word"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="buttons">
+            <button class="button" id="clear-button">Clear</button>
+            <button class="button" id="create-button">Create Game</button>
+        </div>
+    </div>
+</body>
+
+</html>

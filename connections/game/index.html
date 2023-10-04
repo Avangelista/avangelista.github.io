@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Custom Connections</title>
+    <meta name="description" content="Custom editor for NYT's Connections game.">
+    <meta name="author" content="Avangelista">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="game.css">
+    <script src="gunzip.min.js"></script>
+    <script src="game.js"></script>
+</head>
+
+<body>
+    <div id="game">
+        <div id="blurb">
+            <span>Custom Connections</span>
+        </div>
+        <div id="title">
+            <span id="game-name">Untitled</span>
+        </div>
+        <div id="board">
+            <div id="hint">
+                <span id="hint-text"></span>
+            </div>
+        </div>
+        <div id="mistakes">
+            <span id="mistakes-text">Mistakes: 0</span>
+        </div>
+        <div id="buttons">
+            <button class="button" id="share-button">Share Level</button>
+            <!-- <button class="button" id="reset-button">Reset</button> -->
+            <button class="button" id="shuffle-button">Shuffle</button>
+            <button class="button" id="submit-button" disabled>Submit Guess</button>
+        </div>
+        <div id="copy-paste">
+            <button class="button" id="copy-button">Copy Results</button>
+            <pre id="copy-paste-box"></pre>
+        </div>
+    </div>
+</body>
+
+</html>
