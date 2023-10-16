@@ -112,7 +112,7 @@ window.onload = () => {
         levelData[cat3Desc] = [cat3Word1, cat3Word2, cat3Word3, cat3Word4];
         levelData[cat4Desc] = [cat4Word1, cat4Word2, cat4Word3, cat4Word4];
 
-        const gameName = document.getElementById('game-name').value || 'Untitled'
+        const gameName = document.getElementById('game-name').value || 'Connections'
 
         window.location.href = generateURL(levelData, gameName)
     }
